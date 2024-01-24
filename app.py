@@ -1,7 +1,7 @@
 from flask import Flask, Response, render_template
 from test2 import VideoCamera
 
-app = Flask(__name__, template_folder='D:/Stress-Detector/templates')
+app = Flask(__name__, template_folder='D:/Stress Detector project/Stress-Detector/templates')
 
 
 @app.route('/')
@@ -21,3 +21,4 @@ def predict():
 
 if __name__ == '__main__':
     app.run(debug=False,threaded=False)
+    
